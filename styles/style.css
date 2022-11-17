@@ -31,7 +31,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .header__title {
@@ -41,7 +41,7 @@
   width: 730px;
   margin: 0;
   margin-left: 64px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .header__subtitle {
@@ -53,7 +53,7 @@
   left: 64px;
   bottom: 30px;
   margin: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 .header__link {
@@ -69,7 +69,7 @@
   height: 608px;
   right: 0;
   bottom: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -113,9 +113,12 @@
   font-weight: normal;
 }
 
-.two-columns__paragraph:not(:last-child) {
+.two-columns__paragraph {
   margin: 0;
   margin-bottom: 30px;
+}
+.two-columns__paragraph:last-child {
+  margin: 0;
 }
 
 .two-columns__paragraph-accent {
@@ -180,33 +183,39 @@
   margin: 0;
   margin-bottom: 20px;
 }
+.table__text:last-child {
+  margin: 0;
+}
 
 .feynman {
   position: relative;
   min-height: 890px;
   padding-top: 100px;
   background-color: #f2f2f2;
-  z-index: -2;
   box-sizing: border-box;
 }
 
 .feynman__title {
+  position: relative;
   width: 648px;
   margin: 0;
   margin: 0 auto;
-
   text-align: center;
   margin-bottom: 70px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
+  z-index: 2;
 }
 
 .feynman__subtitle {
+  position: relative;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  margin: 0;
+  z-index: 2;
 }
 
 .feynman__link {
@@ -228,7 +237,6 @@
   height: 637px;
   left: 0;
   bottom: 0;
-  z-index: -1;
 }
 
 .kaufman {
@@ -239,15 +247,14 @@
   padding-bottom: 90px;
   margin: 0;
   overflow: hidden;
-  z-index: 10;
   box-sizing: border-box;
 }
 
-.section-title_theme-dark {
+.section-title_theme_dark {
   color: white;
 }
 
-.section-subtitle_theme-dark {
+.section-subtitle_theme_dark {
   color: white;
 }
 
@@ -257,6 +264,7 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 2;
 }
 
 .kaufman__triangle {
@@ -267,7 +275,6 @@
   background-size: contain;
   right: -210px;
   top: 0;
-  z-index: -1;
 }
 
 .footer {
