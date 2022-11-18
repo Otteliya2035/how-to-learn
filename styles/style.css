@@ -248,6 +248,7 @@
   margin: 0;
   overflow: hidden;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
@@ -275,6 +276,7 @@
   background-size: contain;
   right: -210px;
   top: 0;
+  z-index: -1;
 }
 
 .footer {
