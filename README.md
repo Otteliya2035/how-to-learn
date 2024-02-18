@@ -6,4 +6,4 @@
 - Git;
 - HTML и CSS.
 
-Сылка на GitHub Pages: https://Otteliya2035.github.io/how-to-learn
+[How to Learn - GitHub Pages](https://Otteliya2035.github.io/how-to-learn)
