@@ -5,3 +5,6 @@
 - Методология БЭМ;
 - Git;
 - HTML и CSS.
+
+
+[Ссылка на проект](https://github.com/Otteliya2035/how-to-learn)
