@@ -7,4 +7,4 @@
 - HTML и CSS.
 
 
-[Ссылка на проект](https://github.com/Otteliya2035/how-to-learn)
+[Ссылка на проект](https://otteliya2035.github.io/how-to-learn)
